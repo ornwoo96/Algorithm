@@ -38,6 +38,16 @@
 			path = Programmers;
 			sourceTree = "<group>";
 		};
+		BEE070262CD63E7C00E6F6E7 /* Basic */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Basic;
+			sourceTree = "<group>";
+		};
+		BEE0702C2CD6946700E6F6E7 /* DataStructures */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = DataStructures;
+			sourceTree = "<group>";
+		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +65,8 @@
 			isa = PBXGroup;
 			children = (
 				BEE070112CD63B1600E6F6E7 /* main.swift */,
+				BEE070262CD63E7C00E6F6E7 /* Basic */,
+				BEE0702C2CD6946700E6F6E7 /* DataStructures */,
 				BEE070232CD63DE900E6F6E7 /* Algorithms */,
 				BEE070242CD63DE900E6F6E7 /* Programmers */,
 				BEBDE6652CD63A98006A84F6 /* Products */,
@@ -86,6 +98,8 @@
 			);
 			fileSystemSynchronizedGroups = (
 				BEE070242CD63DE900E6F6E7 /* Programmers */,
+				BEE070262CD63E7C00E6F6E7 /* Basic */,
+				BEE0702C2CD6946700E6F6E7 /* DataStructures */,
 			);
 			name = Algorithm;
 			packageProductDependencies = (
