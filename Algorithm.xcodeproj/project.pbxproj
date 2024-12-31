@@ -27,6 +27,16 @@
 		BEE070112CD63B1600E6F6E7 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		BEACFEB92D24318000896639 /* Exceptions for "Basic" folder in "Algorithm" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Array.swift,
+			);
+			target = BEBDE6632CD63A98006A84F6 /* Algorithm */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		BEE070232CD63DE900E6F6E7 /* Algorithms */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
@@ -40,6 +50,9 @@
 		};
 		BEE070262CD63E7C00E6F6E7 /* Basic */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				BEACFEB92D24318000896639 /* Exceptions for "Basic" folder in "Algorithm" target */,
+			);
 			path = Basic;
 			sourceTree = "<group>";
 		};
