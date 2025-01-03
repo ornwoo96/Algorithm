@@ -31,7 +31,14 @@
 		BEACFEB92D24318000896639 /* Exceptions for "Basic" folder in "Algorithm" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
-				Array.swift,
+				Inputs.swift,
+			);
+			target = BEBDE6632CD63A98006A84F6 /* Algorithm */;
+		};
+		BEACFEC02D282D6100896639 /* Exceptions for "Programmers" folder in "Algorithm" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Stack/process.swift,
 			);
 			target = BEBDE6632CD63A98006A84F6 /* Algorithm */;
 		};
@@ -45,6 +52,9 @@
 		};
 		BEE070242CD63DE900E6F6E7 /* Programmers */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				BEACFEC02D282D6100896639 /* Exceptions for "Programmers" folder in "Algorithm" target */,
+			);
 			path = Programmers;
 			sourceTree = "<group>";
 		};
