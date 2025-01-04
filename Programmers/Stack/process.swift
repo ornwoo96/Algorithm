@@ -41,7 +41,7 @@ func solution(_ priorities: [Int], _ location: Int) -> Int {
         } else {
             // 실행 가능한 상태
             order += 1 // 실행 순서 증가
-            if current.0 == location {
+            if current.0 == location { // 현재 프로세스가 location과 동일할 경우
                 // 현재 실행된 프로세스가 목표 프로세스일 경우 반환
                 return order
             }
