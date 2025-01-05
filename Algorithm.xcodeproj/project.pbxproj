@@ -38,7 +38,8 @@
 		BEACFEC02D282D6100896639 /* Exceptions for "Programmers" folder in "Algorithm" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
-				Stack/process.swift,
+				Stack/Process.swift,
+				Stack/TrucksCrossingBridge.swift,
 			);
 			target = BEBDE6632CD63A98006A84F6 /* Algorithm */;
 		};
