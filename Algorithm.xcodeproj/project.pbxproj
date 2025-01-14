@@ -39,6 +39,7 @@
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				Level1/GetMiddleString.swift,
+				Level1/StringToInt.swift,
 				Level2/Stack/Process.swift,
 				Level2/Stack/TrucksCrossingBridge.swift,
 				Level2/Stack/ValidParentheses.swift,
