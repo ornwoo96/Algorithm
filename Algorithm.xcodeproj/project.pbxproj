@@ -48,6 +48,7 @@
 				Programmers/Level0/CompareOperationResult.swift,
 				Programmers/Level0/MoreSum.swift,
 				Programmers/Level0/MultiplesOfN.swift,
+				Programmers/Level0/valueForEvenOrOdd.swift,
 			);
 			target = BEB41F3F2D5F3604003B7837 /* AlgorithmTest */;
 		};

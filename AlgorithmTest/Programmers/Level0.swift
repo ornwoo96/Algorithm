@@ -26,4 +26,9 @@ struct Level0 {
         #expect(solution_commonMultiple(60, 2, 3) == 1)
         #expect(solution_commonMultiple(55, 10, 5) == 0)
     }
+    
+    @Test func valueForEvenOrOddTest() {
+//        #expect(solution_valueForEvenOrOdd(7) == 16)
+        #expect(solution_valueForEvenOrOdd(10) == 220)
+    }
 }
