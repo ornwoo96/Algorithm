@@ -44,8 +44,10 @@
 		BEB41F6F2D5F3C12003B7837 /* Exceptions for "Source" folder in "AlgorithmTest" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
+				Programmers/Level0/CommonMultiple.swift,
 				Programmers/Level0/CompareOperationResult.swift,
 				Programmers/Level0/MoreSum.swift,
+				Programmers/Level0/MultiplesOfN.swift,
 			);
 			target = BEB41F3F2D5F3604003B7837 /* AlgorithmTest */;
 		};

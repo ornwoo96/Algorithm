@@ -6,7 +6,7 @@
 //
 import Foundation
 
-func solution(_ a: Int,
+func solution_moreSum(_ a: Int,
               _ b: Int) -> Int {
     return max(Int("\(a)\(b)")!, Int("\(b)\(a)")!)
 }
