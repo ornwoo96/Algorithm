@@ -6,10 +6,6 @@
 	objectVersion = 77;
 	objects = {
 
-/* Begin PBXBuildFile section */
-		BEE070122CD63B1600E6F6E7 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEE070112CD63B1600E6F6E7 /* main.swift */; };
-/* End PBXBuildFile section */
-
 /* Begin PBXCopyFilesBuildPhase section */
 		BEBDE6622CD63A98006A84F6 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
@@ -23,61 +19,62 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		BEB41F402D5F3604003B7837 /* AlgorithmTest.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AlgorithmTest.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BEBDE6642CD63A98006A84F6 /* Algorithm */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Algorithm; sourceTree = BUILT_PRODUCTS_DIR; };
-		BEE070112CD63B1600E6F6E7 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		BEACFEB92D24318000896639 /* Exceptions for "Basic" folder in "Algorithm" target */ = {
+		BEB41F6E2D5F3C12003B7837 /* Exceptions for "Source" folder in "Algorithm" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
-				Inputs.swift,
+				Algorithms/Dynamic/DP.swift,
+				Algorithms/Other/fibonacci.swift,
+				Algorithms/Sorting/mergeSort.swift,
+				Algorithms/Sorting/quickSort.swift,
+				Basic/Inputs.swift,
+				Programmers/Level1/GetMiddleString.swift,
+				Programmers/Level1/StringToInt.swift,
+				Programmers/Level2/Stack/Process.swift,
+				Programmers/Level2/Stack/TrucksCrossingBridge.swift,
+				Programmers/Level2/Stack/ValidParentheses.swift,
 			);
 			target = BEBDE6632CD63A98006A84F6 /* Algorithm */;
 		};
-		BEACFEC02D282D6100896639 /* Exceptions for "Programmers" folder in "Algorithm" target */ = {
+		BEB41F6F2D5F3C12003B7837 /* Exceptions for "Source" folder in "AlgorithmTest" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
-				Level1/GetMiddleString.swift,
-				Level1/StringToInt.swift,
-				Level2/Stack/Process.swift,
-				Level2/Stack/TrucksCrossingBridge.swift,
-				Level2/Stack/ValidParentheses.swift,
+				Programmers/Level0/CompareOperationResult.swift,
+				Programmers/Level0/MoreSum.swift,
 			);
-			target = BEBDE6632CD63A98006A84F6 /* Algorithm */;
+			target = BEB41F3F2D5F3604003B7837 /* AlgorithmTest */;
 		};
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		BEE070232CD63DE900E6F6E7 /* Algorithms */ = {
+		BEB41F412D5F3604003B7837 /* AlgorithmTest */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = Algorithms;
+			path = AlgorithmTest;
 			sourceTree = "<group>";
 		};
-		BEE070242CD63DE900E6F6E7 /* Programmers */ = {
+		BEB41F512D5F3C0E003B7837 /* Source */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			exceptions = (
-				BEACFEC02D282D6100896639 /* Exceptions for "Programmers" folder in "Algorithm" target */,
+				BEB41F6E2D5F3C12003B7837 /* Exceptions for "Source" folder in "Algorithm" target */,
+				BEB41F6F2D5F3C12003B7837 /* Exceptions for "Source" folder in "AlgorithmTest" target */,
 			);
-			path = Programmers;
-			sourceTree = "<group>";
-		};
-		BEE070262CD63E7C00E6F6E7 /* Basic */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			exceptions = (
-				BEACFEB92D24318000896639 /* Exceptions for "Basic" folder in "Algorithm" target */,
-			);
-			path = Basic;
-			sourceTree = "<group>";
-		};
-		BEE0702C2CD6946700E6F6E7 /* DataStructures */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = DataStructures;
+			path = Source;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		BEB41F3D2D5F3604003B7837 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		BEBDE6612CD63A98006A84F6 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -91,11 +88,8 @@
 		BEBDE65B2CD63A98006A84F6 = {
 			isa = PBXGroup;
 			children = (
-				BEE070112CD63B1600E6F6E7 /* main.swift */,
-				BEE070262CD63E7C00E6F6E7 /* Basic */,
-				BEE0702C2CD6946700E6F6E7 /* DataStructures */,
-				BEE070232CD63DE900E6F6E7 /* Algorithms */,
-				BEE070242CD63DE900E6F6E7 /* Programmers */,
+				BEB41F512D5F3C0E003B7837 /* Source */,
+				BEB41F412D5F3604003B7837 /* AlgorithmTest */,
 				BEBDE6652CD63A98006A84F6 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -104,6 +98,7 @@
 			isa = PBXGroup;
 			children = (
 				BEBDE6642CD63A98006A84F6 /* Algorithm */,
+				BEB41F402D5F3604003B7837 /* AlgorithmTest.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -111,6 +106,28 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		BEB41F3F2D5F3604003B7837 /* AlgorithmTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BEB41F442D5F3604003B7837 /* Build configuration list for PBXNativeTarget "AlgorithmTest" */;
+			buildPhases = (
+				BEB41F3C2D5F3604003B7837 /* Sources */,
+				BEB41F3D2D5F3604003B7837 /* Frameworks */,
+				BEB41F3E2D5F3604003B7837 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				BEB41F412D5F3604003B7837 /* AlgorithmTest */,
+			);
+			name = AlgorithmTest;
+			packageProductDependencies = (
+			);
+			productName = AlgorithmTest;
+			productReference = BEB41F402D5F3604003B7837 /* AlgorithmTest.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		BEBDE6632CD63A98006A84F6 /* Algorithm */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = BEBDE66B2CD63A98006A84F6 /* Build configuration list for PBXNativeTarget "Algorithm" */;
@@ -124,9 +141,7 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				BEE070242CD63DE900E6F6E7 /* Programmers */,
-				BEE070262CD63E7C00E6F6E7 /* Basic */,
-				BEE0702C2CD6946700E6F6E7 /* DataStructures */,
+				BEB41F512D5F3C0E003B7837 /* Source */,
 			);
 			name = Algorithm;
 			packageProductDependencies = (
@@ -145,6 +160,9 @@
 				LastSwiftUpdateCheck = 1600;
 				LastUpgradeCheck = 1600;
 				TargetAttributes = {
+					BEB41F3F2D5F3604003B7837 = {
+						CreatedOnToolsVersion = 16.0;
+					};
 					BEBDE6632CD63A98006A84F6 = {
 						CreatedOnToolsVersion = 16.0;
 					};
@@ -165,22 +183,69 @@
 			projectRoot = "";
 			targets = (
 				BEBDE6632CD63A98006A84F6 /* Algorithm */,
+				BEB41F3F2D5F3604003B7837 /* AlgorithmTest */,
 			);
 		};
 /* End PBXProject section */
 
+/* Begin PBXResourcesBuildPhase section */
+		BEB41F3E2D5F3604003B7837 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
+		BEB41F3C2D5F3604003B7837 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		BEBDE6602CD63A98006A84F6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BEE070122CD63B1600E6F6E7 /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
+		BEB41F452D5F3604003B7837 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DAG6F8V8UR;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = bmo.AlgorithmTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		BEB41F462D5F3604003B7837 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DAG6F8V8UR;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = bmo.AlgorithmTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
 		BEBDE6692CD63A98006A84F6 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -324,6 +389,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		BEB41F442D5F3604003B7837 /* Build configuration list for PBXNativeTarget "AlgorithmTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BEB41F452D5F3604003B7837 /* Debug */,
+				BEB41F462D5F3604003B7837 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		BEBDE65F2CD63A98006A84F6 /* Build configuration list for PBXProject "Algorithm" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
