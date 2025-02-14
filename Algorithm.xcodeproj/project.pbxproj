@@ -32,6 +32,7 @@
 				Algorithms/Sorting/mergeSort.swift,
 				Algorithms/Sorting/quickSort.swift,
 				Basic/Inputs.swift,
+				Programmers/Level0/MoreSum.swift,
 				Programmers/Level1/GetMiddleString.swift,
 				Programmers/Level1/StringToInt.swift,
 				Programmers/Level2/Stack/Process.swift,
